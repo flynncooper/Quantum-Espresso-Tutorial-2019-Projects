@@ -1,10 +1,10 @@
 &control
     calculation = 'scf'
     prefix = 'h2'
-    pseudo_dir = '/home/anonymous/quantumEspresso_2019/SSSP_precision_pseudos'
+    pseudo_dir = '/home/flynncooper/SSSP_precision_pseudos'
 /
 &system
-    ibrav=1, celldm(1) =20, 
+    ibrav=1, celldm(1) =20,
     nat=2, ntyp=1,
     ecutwfc=30.0
 /
